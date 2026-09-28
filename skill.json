@@ -1,0 +1,38 @@
+{
+  "name": "genpark-hubx-multimodal-mobile-agent-mcp",
+  "version": "1.0.0",
+  "description": "Native Model Context Protocol (MCP) server exposing HubX's mobile-first multimodal toolchain: vision diagnostics, voice transcription, photo-realistic generation, and spatial design.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "hubx",
+    "mcp-server",
+    "multimodal",
+    "mobile-agent",
+    "computer-vision",
+    "speech-to-text",
+    "zero-dependency"
+  ],
+  "tools": [
+    {
+      "name": "hubx_vision_diagnose",
+      "description": "Execute botanical identification or meal macro recognition on visual inputs."
+    },
+    {
+      "name": "hubx_speech_transcribe",
+      "description": "Transcribe audio stream and distill meeting key points (NoteAI)."
+    },
+    {
+      "name": "hubx_multimodal_generate",
+      "description": "Generate photorealistic portraits or spatial interior restyling concepts."
+    },
+    {
+      "name": "hubx_language_coach",
+      "description": "Evaluate user pronunciation and grammar in real-time interactive dialogue."
+    },
+    {
+      "name": "run_benchmark_multimodal_tools",
+      "description": "Benchmark multimodal processing latency and classification precision."
+    }
+  ]
+}
